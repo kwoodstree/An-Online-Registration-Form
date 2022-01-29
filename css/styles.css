@@ -8,9 +8,17 @@ input:focus {
   color: red;
 }
 
+textarea:focus {
+  color: red;
+}
+
+select:focus {
+  color: red;
+}
+
 header{
   width:100%;
-  
+
 }
 
 .code {
@@ -45,7 +53,7 @@ header{
   text-align: center;
 }
 .input-field{
-  width:100%;
+  width:50%;
   height: 35px;
   margin-left: -1em;
   background-color: #EFF1F1;
@@ -59,7 +67,7 @@ header{
 
 .input-wrap{
   margin-bottom: 15px;
-  
+
 }
 
 .input-label{
@@ -76,9 +84,9 @@ float:left;
 
  .checksandradio{
   display: block;
-} 
+}
 .cnr{
-  float:left;
+  float: left;
   margin-right: 10px;
 }
 
@@ -89,7 +97,7 @@ textarea {
 }
 textarea {
     padding: 10px;
-    width: 100%; 
+    width: 100%;
     line-height: 1.5;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -100,7 +108,7 @@ textarea {
 label {
     display: block;
     margin-bottom: 10px;
-    
+
 }
 
 .styled {
@@ -138,9 +146,10 @@ small{
 
   .input-wrap{
     display:block;
+
   }
   .input-field{
-    width: 70%;
+    width: 50%;
     height: 35px;
     /* margin-left: -1em; */
     background-color: #EFF1F1;
@@ -148,7 +157,7 @@ small{
     padding-right: 15px;
   }
 
-  
+
 
   .input-label{
     width: 30%;
@@ -160,8 +169,6 @@ small{
     background-color: #EFF1F1;
   }
 
- 
+
 
 }
-
-
