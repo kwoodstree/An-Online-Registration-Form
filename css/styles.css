@@ -4,6 +4,11 @@
 
 }
 
+/* .contact-flex {
+  display:flex;
+
+} */
+
 input:focus {
   color: red;
 }
@@ -30,6 +35,7 @@ header{
  margin-right: -10px;
  margin-left: -10px;
  margin-top: -10px;
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 .signup {
@@ -53,13 +59,23 @@ header{
   text-align: center;
 }
 .input-field{
-  width:50%;
+  width:100%;
   height: 35px;
   margin-left: -1em;
   background-color: #EFF1F1;
   border-radius: 5px;
   padding-right: 15px;
 }
+
+ .zip-input {
+  width: 50%;
+  margin-left: -0.5em;
+  height: 35px;
+  float: left;
+
+
+}
+
 ::placeholder{
   text-align: right;
 }
@@ -83,7 +99,7 @@ float:left;
 } * */
 
  .checksandradio{
-  display: block;
+  display: flex;
 }
 .cnr{
   float: left;
@@ -94,6 +110,7 @@ label,
 textarea {
     font-size: .8rem;
     letter-spacing: 1px;
+
 }
 textarea {
     padding: 10px;
@@ -106,10 +123,11 @@ textarea {
 }
 
 label {
-    display: block;
+    display: flex;
     margin-bottom: 10px;
-
 }
+
+
 
 .styled {
     border: 0;
@@ -137,6 +155,7 @@ small{
 
   body{
     width:100%;
+    font-family: "Sofia", sans-serif;
   }
   .body-wrap{
     /* width: 50%; */
@@ -145,11 +164,13 @@ small{
   }
 
   .input-wrap{
-    display:block;
+    display:flex;
+
 
   }
+
   .input-field{
-    width: 50%;
+    width: 70%;
     height: 35px;
     /* margin-left: -1em; */
     background-color: #EFF1F1;
@@ -157,6 +178,14 @@ small{
     padding-right: 15px;
   }
 
+  .zip-input {
+   width: 25%;
+   margin-left: -1em;
+   height: 35px;
+   float: left;
+
+
+ }
 
 
   .input-label{
