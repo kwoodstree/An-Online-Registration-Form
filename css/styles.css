@@ -11,14 +11,17 @@
 
 input:focus {
   color: red;
+  background: pink;
 }
 
 textarea:focus {
   color: red;
+  background: pink;
 }
 
 select:focus {
   color: red;
+  background: pink;
 }
 
 header{
@@ -68,10 +71,12 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
  .zip-input {
+  display:flex;
+  text-align: left;
   width: 50%;
   margin-left: -0.5em;
   height: 35px;
-  float: left;
+  /* float: left; */
 
 
 }
@@ -102,7 +107,9 @@ float:left;
   display: flex;
 }
 .cnr{
-  float: left;
+  display:flex;
+  text-align: left;
+  /* float: left; */
   margin-right: 10px;
 }
 
@@ -179,18 +186,22 @@ small{
   }
 
   .zip-input {
+    display:flex;
+    text-align: left;
    width: 25%;
    margin-left: -1em;
    height: 35px;
-   float: left;
+   /* float: left; */
 
 
  }
 
 
   .input-label{
+    display:flex;
+    text-align: left;
     width: 30%;
-    float:left;
+    /* float:left; */
   margin-right: 10px;
   }
 
