@@ -3,7 +3,12 @@
 
 
 }
-
+body{
+  width:100%;
+  font-family: "Sofia", sans-serif;
+  /* margin-right: 25%;
+  margin-left: 25%; */
+}
 /* .contact-flex {
   display:flex;
 
@@ -26,18 +31,20 @@ select:focus {
 
 header{
   width:100%;
+  background-color: black;
+
 
 }
 
 .code {
  color: white;
- background-color: black;
+ /* background-color: black; */
  text-align:center;
  padding: 1em;
- margin-bottom: 2em;
+ /* margin-bottom: 2em;
  margin-right: -10px;
  margin-left: -10px;
- margin-top: -10px;
+ margin-top: -10px; */
 font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -62,9 +69,9 @@ font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
 }
 .input-field{
-  width:100%;
+  width:99%;
   height: 35px;
-  margin-left: -1em;
+  /* margin-left: -1em; */
   background-color: #EFF1F1;
   border-radius: 5px;
   padding-right: 15px;
@@ -73,8 +80,8 @@ font-family: 'Source Sans Pro', sans-serif;
  .zip-input {
   display:flex;
   text-align: left;
-  width: 50%;
-  margin-left: -0.5em;
+  width: 49%;
+  /* margin-left: -0.5em; */
   height: 35px;
   /* float: left; */
 
@@ -160,10 +167,10 @@ small{
 
 @media (min-width: 768px) {
 
-  body{
+  /* body{
     width:100%;
     font-family: "Sofia", sans-serif;
-  }
+  } */
   .body-wrap{
     /* width: 50%; */
     margin-right: 25%;
@@ -189,7 +196,7 @@ small{
     display:flex;
     text-align: left;
    width: 25%;
-   margin-left: -1em;
+   margin-left: 0em;
    height: 35px;
    /* float: left; */
 
